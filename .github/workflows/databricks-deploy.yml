@@ -17,4 +17,4 @@ jobs:
           databricks-token: ${{ secrets.DATABRICKS_TOKEN }}
 
       - name: Import notebooks to Databricks workspace
-        run: databricks workspace import_dir ./notebooks /Users/rufinadcosta@gmail.com/FlightDelay --overwrite
+        run: databricks workspace import_dir ./notebooks /Users/rufinadcosta@gmail.com/FlightDelay
